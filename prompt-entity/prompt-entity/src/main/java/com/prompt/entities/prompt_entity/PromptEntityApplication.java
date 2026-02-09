@@ -1,14 +1,14 @@
-package com.springai.prompting.prompt;
+
+package com.prompt.entities.prompt_entity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PromptApplication {
+public class PromptEntityApplication {
 
     public static void main(String[] args) {
-
-        SpringApplication.run(PromptApplication.class, args);
+        SpringApplication.run(PromptEntityApplication.class, args);
     }
-}
 
+}
